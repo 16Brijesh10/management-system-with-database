@@ -10,15 +10,12 @@ def search_stud():
     #Write code to SEARCH student from database.
     rn=input("enter the roll to find a particular student:")
     qy="SELECT * from student WHERE Roll= %s"
-    print(qy)
-    rl=(rn)
+    rl=(rn,)
     try:
         my_cursor.execute(qy,tuple(rl))
         myresult = my_cursor.fetchall()
-        print("name   roll  branch dept")
         for i in myresult:
-            for j in i:
-                print(j,end="  ")
+            print(i)
         conn.commit()
     except TypeError:
         pass
