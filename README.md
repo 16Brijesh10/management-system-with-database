@@ -60,7 +60,7 @@ A simple GUI-based application built using Python's Tkinter library for managing
 - **Updating Student Details:** Enter the Roll Number, select the field to update, enter the new value, and click "Update".
 
 ### Screenshots
-![Add Student Screenshot](student_management_system\output\student.png)
+![Add Student Screenshot](student.png)
 
 
 This documentation structure provides a clear guide for users to understand and utilize your Student Management System project effectively. Adjust any specifics based on your actual project setup and requirements before publishing on GitHub.
