@@ -1,6 +1,3 @@
-Certainly! Here's the refined README documentation for your Student Management System project on GitHub, excluding the author and contact information:
-
----
 
 ### Project Title
 
